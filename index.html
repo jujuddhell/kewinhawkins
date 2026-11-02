@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#09090c">
+  <title>Кевин Хоукинс - 02.11</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Bombarda">B<span>×</span>B</a>
+    <div class="topbar-label">J.L.HDK GIFT DEPARTMENT <i>✦</i> CLASSIFIED FOR KEVIN HAWKINS</div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> ДОСТАВЛЕНО ИЗ BOMBARDA</div>
+        <p class="micro">ОБЪЕКТ № 001 · ЛИЧНОЕ ДЕЛО</p>
+        <h1>Операция:<br><em>Бэт-уход.</em></h1>
+        <p class="hero-text">Для самого прекрасного гриффиндорца. Во имя исполнения всех его желаний.</p>
+        <div class="hero-stamps">
+          <span>100% BAT-APPROVED</span><span>ТОЛЬКО ДЛЯ НАСТОЯЩИХ БЭД-БОЕВ<br></span>
+        </div>
+        <a class="cta" href="#collection">ОТКРЫТЬ АРСЕНАЛ <b>↘</b></a>
+      </div>
+      <div class="hero-art">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="bat-symbol">✦</div>
+        <div class="hero-box">
+          <img src="assets/box.png" alt="Коробка подарочного набора" onerror="this.parentElement.classList.add('missing')">
+          <div class="image-fallback"><span>BATMAN</span><small>THE ULTIMATE CARE KIT</small></div>
+          <div class="box-caption">LIMITED EDITION<br><b>KEVIN'S KIT</b></div>
+        </div>
+        <div class="sticker sticker-top">СЕКРЕТНО<br><b>♥</b></div>
+        <div class="sticker sticker-bottom">ОДОБРЕНО<br>ЛЮБИМОЙ</div>
+      </div>
+      <div class="scroll-note">SCROLL TO UNLOCK <span>↓</span></div>
+    </section>
+
+    <section class="intro section-wrap">
+      <div class="intro-grid">
+        <h2>Серьёзный<br><em>уход</em>.<br> Любимый<br><em>Кевин Хоукинс</em>.</h2>
+        <div class="intro-note">
+          <div class="red-line"></div>
+          <p>Миссия: собрать все 20 предметов, не потерять главный артефакт и добавить Брюсу Уэйну конкурента в виде Кевина Хоукинса.</p>
+          <p class="tiny">* Ни один Бэтмен (и мистер Эверингтон) в процессе подготовки не пострадал. Наверное.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="batmobile section-wrap" id="batmobile">
+      <div class="batmobile-card">
+        <div class="batmobile-copy">
+          <span class="rarity">★ ЛЕГЕНДАРНЫЙ ПРЕДМЕТ ★</span>
+          <h2>Бэт-мобиль<br><em>100 в 1</em></h2>
+          <p>Не просто баночка. Центр вселенной. Альфа и омега ухода. Предмет, который в одиночку мог бы спасти Готэм — или хотя бы твою полочку в ванной.<br>
+            "СТО В ОДНОМ ЭТО МОЖНО ДАЖЕ ЕСТЬ" СОСТАВ: Вершина Джомолунгмы, слабоумие и отвага, меч Гриффиндора из пасти Василиска
+          </p>
+          <div class="stats">
+            <div><b>100/1</b><span>УРОВЕНЬ БРУТАЛЬНОСТИ</span></div>
+            <div><b>∞</b><span>ДЕТСКАЯ РАДОСТЬ</span></div>
+            <div><b>1</b><span>ЛЮБИМЫЙ БОЙФРЕНД</span></div>
+          </div>
+          <div class="warning">⚠ ХРАНИТЬ ВДАЛИ ОТ ДЖОКЕРА, КОРИЧКИ, СНИТЧА И Т.С.</div>
+        </div>
+        <div class="batmobile-art">
+          <div class="spotlight"></div>
+          <img src="assets/100in1.png" alt="Бэт-мобиль 100 в 1" onerror="this.parentElement.classList.add('missing')">
+          <div class="image-fallback"><span>BAT-MOBILE</span><small>100 IN 1 · THE BOSS</small></div>
+          <span class="floating-tag">THE<br>BIG ONE</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="collection section-wrap" id="collection">
+      <div class="collection-heading">
+        <div><h2>Что теперь есть<br><em>В сумочке у КХ?</em></h2><p>А мы сами не знаем, но надеюсь, что Жужу ХдК в сердце.</p></div>
+        <div class="counter"><strong id="itemCount">20</strong><span>ПРЕДМЕТОВ<br>В КОЛЛЕКЦИИ</span></div>
+      </div>
+      <div class="filter-row" role="group" aria-label="Фильтр товаров">
+        <button class="filter active" data-filter="all">ВСЁ <span>20</span></button>
+        <button class="filter" data-filter="face">ЛИЦО</button>
+        <button class="filter" data-filter="wash">ОЧИЩЕНИЕ</button>
+        <button class="filter" data-filter="hair">ВОЛОСЫ</button>
+        <button class="filter" data-filter="extra">ОСТАЛЬНОЕ</button>
+      </div>
+      <div class="products" id="products"></div>
+      <div class="warning">⚠ НЕ НАНОСИТЬ БОЛЬШЕ 4Х СРЕДСТВ ЗА РАЗ. </div>
+      <p class="collection-footnote">* К каждому предмету можно прибавить слово "ПАРФЮМИРОВАННЫЙ". НУ, если очень хочется. Все ароматизаторы подстраиваться под настроение Кевина Хоукинса.</p>
+    </section>
+
+    <section class="note-section section-wrap">
+      <div class="letter-card">
+        <div class="letter-copy">
+          <span class="tiny-label">PERSONAL MESSAGE · EYES ONLY</span>
+          <h2>У тебя новое<br><em>письмо.</em></h2>
+          <p>Посмотри, вдруг там что-то важное...</p>
+        </div>
+        <button class="envelope" id="envelope" aria-label="Открыть письмо с поздравлением">
+          <span class="envelope-heart">♥</span><span class="envelope-seal">K</span><span class="envelope-hint">НАЖМИ МЕНЯ</span>
+        </button>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-brand">K<span>×</span>J</div>
+      <p>С любовью, Жужу ХдК.</p>
+      <span class="footer-code">BOMBARDA · GIFT FILE CLOSED</span>
+    </footer>
+  </main>
+
+  <div class="modal" id="letterModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="letterTitle">
+    <div class="modal-backdrop" id="closeBackdrop"></div>
+    <article class="letter-paper">
+      <button class="close-modal" id="closeLetter" aria-label="Закрыть письмо">×</button>
+      <div class="paper-stamp">J ♥ K</div>
+      <p class="paper-overline">ДОСТАВЛЕНО С ЛЮБОВЬЮ</p>
+      <h2 id="letterTitle">Мой любимый<br><em>Лис.</em></h2>Лисёнок, Рыцарь, Бэд-бой, Вампир и просто Любимый
+      <div class="letter-body">
+        <p>Я тебя поздравляю с твоим (вторым!) Днём рождения.</p>
+        <p>Когда-то давно (ладно, полгода назад) я была дико зла, что у тебя их два. Ведь к этому дню я начала готовиться тогда, а нужно было тогда готовиться к тогда и вообще. Но знаешь, наверное это и хорошо? Зато у меня есть ещё один повод сказать, что я тебя невероятно люблю и очень тобой дорожу.</p> <p>Конечно, это я могу говорить тебе каждый день, как и могу делать каждый день тебе праздник, но это всё не то и вообще.</p> <p>И вообще я очень не умею говорить красивые слова, за что мне нееемножечко стыдно, но... ты меня любишь, я тебя люблю, поэтому пусть у тебя будет праздник на каждом из твоих дней рождений.</p> <p>С днём рождения, лисёнок!</p>
+      </div>
+      <p class="letter-sign">Твоя принцесса, любовь, морковка, зайка и т.д. <span>♥</span></p>
+      <div class="paper-bottom">P.S. Бэт-мобиль 100 в 1 — был просто необходим. Не спорь с устоявшейся нормой мужской косметической индустрии!</div>
+    </article>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
